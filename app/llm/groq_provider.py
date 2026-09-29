@@ -19,8 +19,8 @@ class GroqLLMProvider(BaseLLMProvider):
         api_key: Optional[str] = None,
         model: Optional[str] = None,
     ):
-        self.api_key = api_key or settings.GROQ_API_KEY
-        self.model = model or settings.GROQ_MODEL
+        self.api_key = settings.GROQ_API_KEY if api_key is None else api_key
+        self.model = settings.GROQ_MODEL if model is None else model
         self._active_model = self.model
         self._client = None
         self._fallback = MockLLMProvider()

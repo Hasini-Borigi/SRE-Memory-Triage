@@ -18,9 +18,9 @@ class HindsightMemoryStore(MemoryStore):
         base_url: Optional[str] = None,
         bank_id: Optional[str] = None,
     ):
-        self.api_key = api_key or settings.HINDSIGHT_API_KEY
-        self.base_url = base_url or settings.HINDSIGHT_BASE_URL
-        self.bank_id = bank_id or settings.HINDSIGHT_BANK_ID
+        self.api_key = settings.HINDSIGHT_API_KEY if api_key is None else api_key
+        self.base_url = settings.HINDSIGHT_BASE_URL if base_url is None else base_url
+        self.bank_id = settings.HINDSIGHT_BANK_ID if bank_id is None else bank_id
         self._client = None
         self._bank_ensured = False
         self._init_client()
