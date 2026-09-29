@@ -180,38 +180,38 @@ make test
 📺 Project Demo Video
 Watch the complete 3-minute architectural walkthrough and live incident triage demonstration:
 
-YouTube Demo: SRE Memory Triage Walkthrough
+YouTube Demo: SRE Memory Triage Walkthrough (https://youtu.be/-pDWYyRYgGA)
 
 📖 Deep-Dive Technical Articles
 Each engineering team member authored an in-depth technical analysis covering distinct architectural aspects of the project:
 Member	Focus Area	Technical Article
-Hasini Borigi	Production Incident Debugging & Real-world Outages	How I Debugged 3 AM Postgres Pool Outages With Hindsight
-Thanmai Etamsetti	3-Tier Agent Memory Architecture & Hybrid Scoring	Designing a 3-Tier Agent Memory Engine Using Hindsight
-Pardha Saradhi Thota	Empirical Benchmark: Stateless LLMs vs. Stateful Agents	Why I Stopped Using Stateless LLMs for Production Outages
-Sai Charan Duvvi	End-to-End FastAPI & Groq Implementation Lifecycle	How I Built an Incident Response Agent With Hindsight
-Divya Chikkudu	Anti-Vector RAG & Runbook Efficacy Learning Loops	Why Vector RAG Fails for Incident Triage Without Hindsight
-Balaji Mallik	High-Availability, Circuit Breakers & Fallback Resilience	How I Designed Fallback Resilience Into Our Hindsight Agent
+1.Hasini Borigi | Production Incident Debugging & Real-world Outage | How I Debugged 3 AM Postgres Pool Outages With Hindsight(https://dev.to/hasini_borigi_22/how-i-debugged-3-am-postgres-pool-outages-with-hindsight-2olh )
+2.Thanmai Etamsetti | 3-Tier Agent Memory Architecture & Hybrid Scoring	| Designing a 3-Tier Agent Memory Engine Using Hindsight(https://dev.to/thanu_etamsetti_3389352ba/designing-a-3-tier-agent-memory-engine-using-hindsight-3kad)
+3.Pardha Saradhi Thota	| Empirical Benchmark: Stateless LLMs vs. Stateful Agents |	Why I Stopped Using Stateless LLMs for Production Outages(https://dev.to/thota_parda/why-i-stopped-using-stateless-llms-for-production-outages-2ole)
+4.Sai Charan Duvvi |End-to-End FastAPI & Groq Implementation Lifecycle	| How I Built an Incident Response Agent With Hindsight(https://dev.to/sai_charan_duvvi/how-i-built-an-incident-response-agent-with-hindsight-4l0h)
+5.Divya Chikkudu	| Anti-Vector RAG & Runbook Efficacy Learning Loops	| Why Vector RAG Fails for Incident Triage Without Hindsight(https://dev.to/divya_chikkudu_2b398da46e/why-vector-rag-fails-for-incident-triage-without-hindsight-598k)
+6.Balaji Mallik	| High-Availability, Circuit Breakers & Fallback Resilience |	How I Designed Fallback Resilience Into Our Hindsight Agent(https://dev.to/balaji_mallik_9aabcbbb2a4/how-i-designed-fallback-resilience-into-our-hindsight-agent-4dgl)
 
 🌐 Community & Discussions
 Reddit Discussion: r/AI_Agents Technical Showcase
 
 LinkedIn Project Insights
-Member 1 (Hasini): View LinkedIn Post
+Member 1 (Hasini): View LinkedIn Post (https://lnkd.in/p/drWnBfpa)
 
-Member 2 (Thanmai): View LinkedIn Post
+Member 2 (Thanmai): View LinkedIn Post (https://lnkd.in/p/ddR-QQtC)
 
-Member 3 (Pardha): View LinkedIn Post
+Member 3 (Pardha): View LinkedIn Post (https://lnkd.in/p/df6xi6DC)
 
-Member 4 (Sai Charan): View LinkedIn Post
+Member 4 (Sai Charan): View LinkedIn Post (https://lnkd.in/p/duwSgq7x)
 
-Member 5 (Divya): View LinkedIn Post
+Member 5 (Divya): View LinkedIn Post (https://lnkd.in/p/dJvFdZ2q)
 
 🔗 Reference Links
-Hindsight GitHub Repository: vectorize-io/hindsight
+Hindsight GitHub Repository: vectorize-io/hindsight(https://lnkd.in/p/dJvFdZ2q)
 
-Hindsight Documentation: hindsight.vectorize.io
+Hindsight Documentation: hindsight.vectorize.io (https://hindsight.vectorize.io/)
 
-Understanding Agent Memory: What is Agent Memory?
+Understanding Agent Memory: What is Agent Memory?(https://vectorize.io/what-is-agent-memory)
 
 📄 License
 This project is licensed under the MIT License.
