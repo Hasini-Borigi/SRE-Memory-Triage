@@ -59,6 +59,7 @@ $$\text{Score} = 0.40 \cdot \text{Sim}_{\text{vector}} + 0.20 \cdot \text{Match}
 
 Every recommendation presents an **explainable score breakdown** so on-call operators understand exactly why a past incident was cited.
 
+
 ---
 
 ## 3. Technology Stack
@@ -175,3 +176,42 @@ make test
 | `POST` | `/postmortems` | Ingest and parse post-mortem markdown into structured lessons |
 | `GET` | `/memory/search?q=` | Query persistent memory bank directly |
 | `GET` | `/analytics` | MTTR trends, root cause frequencies, repeat incident rate |
+
+📺 Project Demo Video
+Watch the complete 3-minute architectural walkthrough and live incident triage demonstration:
+
+YouTube Demo: SRE Memory Triage Walkthrough
+
+📖 Deep-Dive Technical Articles
+Each engineering team member authored an in-depth technical analysis covering distinct architectural aspects of the project:
+Member	Focus Area	Technical Article
+Hasini Borigi	Production Incident Debugging & Real-world Outages	How I Debugged 3 AM Postgres Pool Outages With Hindsight
+Thanmai Etamsetti	3-Tier Agent Memory Architecture & Hybrid Scoring	Designing a 3-Tier Agent Memory Engine Using Hindsight
+Pardha Saradhi Thota	Empirical Benchmark: Stateless LLMs vs. Stateful Agents	Why I Stopped Using Stateless LLMs for Production Outages
+Sai Charan Duvvi	End-to-End FastAPI & Groq Implementation Lifecycle	How I Built an Incident Response Agent With Hindsight
+Divya Chikkudu	Anti-Vector RAG & Runbook Efficacy Learning Loops	Why Vector RAG Fails for Incident Triage Without Hindsight
+Balaji Mallik	High-Availability, Circuit Breakers & Fallback Resilience	How I Designed Fallback Resilience Into Our Hindsight Agent
+
+🌐 Community & Discussions
+Reddit Discussion: r/AI_Agents Technical Showcase
+
+LinkedIn Project Insights
+Member 1 (Hasini): View LinkedIn Post
+
+Member 2 (Thanmai): View LinkedIn Post
+
+Member 3 (Pardha): View LinkedIn Post
+
+Member 4 (Sai Charan): View LinkedIn Post
+
+Member 5 (Divya): View LinkedIn Post
+
+🔗 Reference Links
+Hindsight GitHub Repository: vectorize-io/hindsight
+
+Hindsight Documentation: hindsight.vectorize.io
+
+Understanding Agent Memory: What is Agent Memory?
+
+📄 License
+This project is licensed under the MIT License.
