@@ -49,3 +49,4 @@ frontend/dist-ssr/
 .DS_Store
 .vscode/
 .idea/
+pyrightconfig.json
