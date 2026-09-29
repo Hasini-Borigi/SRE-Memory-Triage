@@ -50,3 +50,4 @@ frontend/dist-ssr/
 .vscode/
 .idea/
 pyrightconfig.json
+.env
